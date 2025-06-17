@@ -6,13 +6,13 @@ model Model
 		legacyRedirects
 		returnErrorValuesAsNull
 
-annotation PBIDesktopVersion = 2.143.709.0 (25.05)+7dda153090d92b81c914dbf9a8341b546d6d0467
+annotation PBIDesktopVersion = 2.145.7692.4 (Main)+9e218fec77c33043950f105df46e999400bc0cc4
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_QueryOrder = ["Service","RandomError","ForceError","TableToFail","Customers","Categories","Orders","Order_Details","Products"]
 
-annotation PBI_ProTooling = ["TMDLView_Desktop","DevMode","TMDL-Extension"]
+annotation PBI_ProTooling = ["TMDLView_Desktop","DevMode","TMDL-Extension","WebModelingEdit"]
 
 ref table DateTableTemplate_8340ca1c-13cc-417d-881d-176281d89ad3
 ref table Customers
