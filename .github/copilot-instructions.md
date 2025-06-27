@@ -29,6 +29,8 @@ This repository contains Power BI reports in PBIP (Power BI Project) format, loc
         - Don't create measures for non aggregatable columns such as keys or descriptions. Unless they specify a summarizeBy property different than 'none'
         - Don't create complex DAX. Keep it simple, most of the times I'm just trying to save some time for basic stuff.
         - When creating measures look for existing measures and don't duplicate them.
+        - The measure name should be enclosed in single quotes if includes spaces or special characters.
+        - The DAX expression should appear after the measure name preceeded with the '=' sign.
 
     - For all asks:
         - When creating new objects never include the lineageTag property.        
