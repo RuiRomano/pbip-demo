@@ -45,5 +45,5 @@ jobs:
           FABRIC_CLIENT_SECRET: ${{ secrets.FABRIC_CLIENT_SECRET }}
           FABRIC_TENANT_ID: ${{ secrets.FABRIC_TENANT_ID }}          
         run: 
-          python deploy.py --spn-auth true --workspace "$workspace_name" --environment $environment_name --src "./src"
+          python ./src/deploy.py --spn-auth true --workspace "$workspace_name" --environment $environment_name --src "./src"
       

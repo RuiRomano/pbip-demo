@@ -38,7 +38,7 @@ Before running the Github Action, ensure you configure the following [GitHub act
     $ pip install fabric-cicd 
     ```
 - Create the target Fabric Workspace
-- Run the [deploy.py](./deploy.py)
+- Run the [deploy.py](./src/deploy.py)
 
 ## Run Best Practice Analysis
 
